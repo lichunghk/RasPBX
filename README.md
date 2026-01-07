@@ -142,6 +142,7 @@ By default, Asterisk will run in the background. However, it can be useful to at
 
 - c.) Go to Asterisk - SIP Settings and click **Detect Network Settings**. Ensure that this fills in the Local Networks address (failure to do this will mean that any call will be cut-off after 30 seconds)
 <img src="https://github.com/playfultechnology/RasPBX/blob/main/images/freepbxnat.jpg" alt="FreePBX NAT settings" />
+
 - d.) **IMPORTANT** to save changes, click both the Submit button AND the Apply Config button!
 
 ## 9.) Create Extensions
