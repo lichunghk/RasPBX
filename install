@@ -483,6 +483,8 @@ elif [ "$1" = "--phase3" ]; then
   menuselect/menuselect --enable EXTRA-SOUNDS-EN-WAV --enable EXTRA-SOUNDS-EN-ULAW menuselect.makeopts
   menuselect/menuselect --enable EXTRA-SOUNDS-EN-GSM --enable EXTRA-SOUNDS-EN-G722 menuselect.makeopts
   menuselect/menuselect --enable format_mp3 --enable chan_mobile --enable app_macro menuselect.makeopts
+  menuselect/menuselect --enable codec_opus --enable res_format_attr_opus menuselect.makeopts
+  menuselect/menuselect --enable format_ogg_opus menuselect.makeopts
   make
   RESULT=$?
   if [ ${RESULT} -ne 0 ]; then
